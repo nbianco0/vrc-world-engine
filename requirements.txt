@@ -1,0 +1,7 @@
+praw
+python-dotenv
+pandas
+nltk
+vaderSentiment
+streamlit
+plotly
