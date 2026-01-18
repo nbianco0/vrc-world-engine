@@ -1,7 +1,6 @@
-praw
+requests
 python-dotenv
 pandas
-nltk
-vaderSentiment
+scikit-learn
 streamlit
 plotly

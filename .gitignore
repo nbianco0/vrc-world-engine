@@ -1,33 +1,26 @@
 # Python
 __pycache__/
-*.py[cod]
+*.pyc
 *.pyo
 *.pyd
-.env
-.venv/
+*.egg-info/
+.eggs/
+
+# Virtual environment
 venv/
+.env
 
-# Jupyter
-.ipynb_checkpoints/
-
-# Data files
-data/
-*.db
-*.sqlite
-*.sqlite3
-*.csv
-*.parquet
-
-# Model artifacts
-models/
-*.pkl
-*.joblib
-
-# Logs
-logs/
-*.log
-
-# OS / Editor
-.DS_Store
+# IDEs
 .vscode/
 .idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Data (generated locally)
+data/
+
