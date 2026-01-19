@@ -1,6 +1,10 @@
 requests
+vrchatapi
 python-dotenv
 pandas
 scikit-learn
 streamlit
 plotly
+jupyter
+pytest
+black

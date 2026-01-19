@@ -21,6 +21,7 @@ This project focuses on building a scalable data pipeline and recommendation sys
 ## Tech Stack
 **Backend / Data**
 - Python
+- VRChat API Client (`vrchatapi`)
 - Requests
 - SQLite
 - Pandas
@@ -32,6 +33,52 @@ This project focuses on building a scalable data pipeline and recommendation sys
 **Frontend**
 - Streamlit
 - Plotly
+
+---
+
+## Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/vrc-world-analyzer.git
+   cd vrc-world-analyzer
+   ```
+
+2. **Create and activate a virtual environment**
+   ```bash
+   # Windows
+   python -m venv venv
+   .\venv\Scripts\activate
+
+   # Mac/Linux
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Environment Setup**
+   Copy the example environment file and add your VRChat credentials:
+   ```bash
+   cp .env.example .env
+   ```
+   Open `.env` and fill in `VRC_USERNAME` and `VRC_PASSWORD`.
+
+## Usage
+
+> **Note:** The application is currently under active development.
+
+**Running the Dashboard**
+To launch the data visualization dashboard:
+```bash
+streamlit run src/dashboard/app.py
+```
+
+**Running Data Collection**
+Scripts for data ingestion can be found in the `scripts/` directory (coming soon).
 
 ---
 
